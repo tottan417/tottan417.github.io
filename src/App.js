@@ -1,4 +1,5 @@
-import './App.css';
+import React from 'react';
+import './styles/App.css';
 
 import PROFILE from './components/Profile/profile.js'
 import BACKGROUND from './components/Background/background.js'
