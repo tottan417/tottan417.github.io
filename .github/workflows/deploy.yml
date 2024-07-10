@@ -32,10 +32,7 @@ jobs:
       - name: Build the project
         run: npm run build
         env:
-          PUBLIC_URL: /tottan417.github.io
-
-      - name: Create .nojekyll
-        run: echo > ./build/.nojekyll
+          PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
