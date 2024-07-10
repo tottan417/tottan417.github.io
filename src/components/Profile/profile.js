@@ -6,7 +6,7 @@ function App() {
     <>
       <div class="component">
         <a href="https://tottan417.github.io">
-          <img src={tottanLogo} className="tottan-logo"/>
+          <img src={tottanLogo} alt="my-logo" className="tottan-logo"/>
         </a>
       </div>
     </>
