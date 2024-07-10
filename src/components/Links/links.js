@@ -2,7 +2,7 @@ function App() {
 
     return (
       <>
-        <div class="component">
+        <div className="component">
           <a href="https://github.com/tottan417">GitHub</a>
           <a href="https://atcoder.jp/users/tottan">AtCoder</a>
           <a href="https://kaggle.com/tottan">Kaggle</a>

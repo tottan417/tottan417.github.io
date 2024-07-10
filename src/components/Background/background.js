@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div class="component">
+      <div className="component">
         <h1>兵庫県立大学 社会情報科学部</h1>
         <div className="card">
           <button onClick={() => setCount((count) => count + 5)}>
