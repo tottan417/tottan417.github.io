@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.component {
+  float: left;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: #f0f0f0;
+}
