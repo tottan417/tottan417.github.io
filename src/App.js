@@ -1,10 +1,11 @@
 import React from 'react';
-import './styles/App.css';
+import './App.css';
 
 import PROFILE from './components/Profile/profile.js'
 import BACKGROUND from './components/Background/background.js'
 import SKILLS from './components/Skills/skills.js'
 import LINKS from './components/Links/links.js'
+import BLACKBOX from './components/Blackbox/blackbox.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <BACKGROUND />
       <SKILLS />
       <LINKS />
+      <BLACKBOX />
     </div>
   );
 }
