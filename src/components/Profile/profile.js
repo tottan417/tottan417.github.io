@@ -4,7 +4,7 @@ import tottanLogo from './tottan.jpg'
 function App() {
   return (
     <>
-      <div className="component">
+      <div className="component profile">
         <a href="https://tottan417.github.io">
           <img src={tottanLogo} alt="my-logo" className="tottan-logo"/>
         </a>

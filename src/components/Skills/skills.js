@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <div className="component">
+      <div className="component skills">
         <ul>
           <li>基本情報技術者</li>
           <li>簿記2級</li>

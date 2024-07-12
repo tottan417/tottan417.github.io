@@ -1,0 +1,24 @@
+.gs-algorithm {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.title {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+.resetButton {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+}
+
+.men {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.women {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+}

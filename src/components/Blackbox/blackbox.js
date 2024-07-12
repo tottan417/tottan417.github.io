@@ -2,7 +2,7 @@ function App() {
 
     return (
       <>
-        <div className="component">
+        <div className="component blackbox">
           ブラックボックスです。
         </div>
       </>
