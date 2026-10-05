@@ -51,7 +51,6 @@ function BinanceAssets() {
           <p className="binance-assets-eyebrow">BINANCE</p>
           <h2>Assets</h2>
         </div>
-        <span className="binance-assets-dot" aria-label="live" />
       </div>
 
       {loading && <p className="binance-assets-muted">Loading...</p>}
