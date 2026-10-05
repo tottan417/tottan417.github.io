@@ -7,6 +7,7 @@ import SKILLS from './components/Skills/skills.js'
 import LINKS from './components/Links/links.js'
 import GsALGORITHM from './components/GS-Algorithm/gs-algorithm.js'
 import BLACKBOX from './components/Blackbox/blackbox.js'
+import BINANCEASSETS from './components/BinanceAssets/binance-assets.js'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <BACKGROUND />
       <SKILLS />
       <LINKS />
+      <BINANCEASSETS />
       <GsALGORITHM />
       <BLACKBOX />
       <BLACKBOX />
