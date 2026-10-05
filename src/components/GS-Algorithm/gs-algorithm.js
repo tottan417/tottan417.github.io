@@ -181,7 +181,6 @@ function App() {
     <div className="component gs-algorithm">
       <div className="titleAndButton">
         <div className="title">Gale-Shapley Algorithm</div>
-        <div className="startButton"><button disabled>men propose</button></div>
         <div className="resetButton">
           <button onClick={handleReset}>reset</button>
         </div>
