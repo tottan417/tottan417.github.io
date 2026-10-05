@@ -1,0 +1,68 @@
+.binance-assets {
+  min-height: 180px;
+}
+
+.binance-assets-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.binance-assets-header h2 {
+  margin: 0;
+}
+
+.binance-assets-eyebrow {
+  margin: 0 0 4px;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  opacity: 0.55;
+}
+
+.binance-assets-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.75;
+}
+
+.binance-assets-total {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 18px 0 14px;
+}
+
+.binance-assets-total span,
+.binance-assets-muted,
+.binance-assets-updated {
+  opacity: 0.6;
+}
+
+.binance-assets-total strong {
+  font-size: 1.35rem;
+}
+
+.binance-assets-list {
+  display: grid;
+  gap: 7px;
+}
+
+.binance-assets-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.9rem;
+}
+
+.binance-assets-row span:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.binance-assets-updated {
+  margin: 14px 0 0;
+  font-size: 0.72rem;
+}
