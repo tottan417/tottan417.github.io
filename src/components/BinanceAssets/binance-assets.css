@@ -1,5 +1,7 @@
 .binance-assets {
   min-height: 180px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .binance-assets-header {
@@ -7,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  min-width: 0;
 }
 
 .binance-assets-header h2 {
@@ -21,6 +24,7 @@
 }
 
 .binance-assets-dot {
+  flex: 0 0 auto;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -33,6 +37,7 @@
   flex-direction: column;
   gap: 4px;
   margin: 18px 0 14px;
+  min-width: 0;
 }
 
 .binance-assets-total span,
@@ -42,27 +47,60 @@
 }
 
 .binance-assets-total strong {
-  font-size: 1.35rem;
+  display: block;
+  max-width: 100%;
+  font-size: clamp(1.05rem, 4.8vw, 1.35rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .binance-assets-list {
   display: grid;
   gap: 7px;
+  min-width: 0;
 }
 
 .binance-assets-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: minmax(0, auto) minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
   font-size: 0.9rem;
+}
+
+.binance-assets-row span {
+  min-width: 0;
+}
+
+.binance-assets-row span:first-child {
+  white-space: nowrap;
 }
 
 .binance-assets-row span:last-child {
   text-align: right;
   font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .binance-assets-updated {
   margin: 14px 0 0;
   font-size: 0.72rem;
+  overflow-wrap: anywhere;
+}
+
+@media screen and (max-width: 500px) {
+  .binance-assets {
+    padding: 14px;
+  }
+
+  .binance-assets-row {
+    font-size: 0.82rem;
+    gap: 6px;
+  }
+
+  .binance-assets-total strong {
+    font-size: 1.1rem;
+  }
 }
