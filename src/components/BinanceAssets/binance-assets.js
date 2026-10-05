@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './binance-assets.css';
 
-const API_URL = process.env.REACT_APP_BINANCE_ASSETS_API_URL;
+const API_URL = 'https://binance-assets-api.onrender.com/api/assets';
 
 function BinanceAssets() {
   const [data, setData] = useState(null);
