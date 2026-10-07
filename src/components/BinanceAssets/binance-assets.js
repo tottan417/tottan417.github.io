@@ -60,7 +60,7 @@ function BinanceAssets() {
         <>
           <div className="binance-assets-total">
             <span>Total</span>
-            <strong>{Number(data.total_usdt || 0).toLocaleString(undefined, { maximumFractionDigits: 2 })} USDT</strong>
+            <strong>{Number(data.total_usdt || 0).toLocaleString(undefined, { maximumFractionDigits: 2 })} USD</strong>
           </div>
 
           <div className="binance-assets-list">
